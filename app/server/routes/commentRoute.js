@@ -7,3 +7,5 @@ router.post('/addComment',commentController.addComment);
 
 //route to get all comments
 router.get('/comments',commentController.getComments);
+
+module.exports = router;
