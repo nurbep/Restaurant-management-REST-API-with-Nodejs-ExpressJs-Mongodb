@@ -11,3 +11,5 @@ router.get('/customers',customerController.findAllCustomers);
 
 // route to login 
 router.post('/login',authController.customerLogin);
+
+module.exports = router;
