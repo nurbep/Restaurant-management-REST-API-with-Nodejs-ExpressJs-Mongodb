@@ -2,7 +2,6 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var bcrypt = require('bcrypt-nodejs');
 
-// user schema
 var ProductSchema = new Schema({
         name:String,
         price:Number,
