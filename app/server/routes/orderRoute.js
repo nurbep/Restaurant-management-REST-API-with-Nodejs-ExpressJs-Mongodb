@@ -5,3 +5,5 @@ var orderController = require("../controllers/Order.server.controller");
 // route to send an order
 router.post('/sendOrder',orderController.sendOrder);
 
+module.exports = router;
+
